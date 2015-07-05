@@ -1,0 +1,25 @@
+{
+    "name": "nham/verify",
+    "description": "",
+    "authors": [
+        {
+            "name": "Hoang Nham",
+            "email": "hoangnham01@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "google/apiclient": "^1.1",
+        "facebook/php-sdk-v4": "^4.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Nham\\Verify\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
